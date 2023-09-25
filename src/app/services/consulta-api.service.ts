@@ -20,7 +20,7 @@ export class ConsultaApiService {
   }
 
   public postSaludo(imgData: { img: String }):Observable<any>{
-    let url=environment.api+this.endpoint;
+    let url=this.api+this.endpoint;
     return this.http.post<any>(url,imgData);
   }
 }
