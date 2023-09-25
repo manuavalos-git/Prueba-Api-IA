@@ -1,0 +1,8 @@
+{
+    "/Pruebas/*": {
+      "target": "https://api-resultados.onrender.com",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+  }
